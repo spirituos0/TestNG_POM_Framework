@@ -1,0 +1,12 @@
+<suite name="Cross-Browser Testing">
+
+    <test name="Test All Functionalities in chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Test._01_SubscribeFunction"></class>
+            <class name="Test._02_EditAccountFunction"></class>
+            <class name="Test._03_AddressBookFunction"></class>
+            <class name="Test._04_SearchFunction"></class>
+        </classes>
+    </test>
+</suite>

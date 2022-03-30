@@ -1,0 +1,16 @@
+<suite name="Subscribe function Cross-Browser Test">
+    <test name="Test in chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <!-- since we provided parameter name as chrome, test is going to run in chrome -->
+        <classes>
+            <class name="Test._01_SubscribeFunction"></class>
+        </classes>
+    </test>
+
+    <test name="Test in Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="Test._01_SubscribeFunction"></class>
+        </classes>
+    </test>
+</suite>
